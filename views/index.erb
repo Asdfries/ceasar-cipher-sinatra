@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <p>What would you like to cypher today?</p>
+        <form>
+            Message: <input type='text' name = 'message' /><br>
+            Key: <input type='text' name='key' />
+            <input type='submit' value='Translate!' />
+        </form>
+    </head>
+    <body>
+        <p>Your encripted message is <%= encript %></p>
+        
+        <form>
+            Translate: <input type = 'text' name = 'secret' /> <br>
+            Key: <input type = 'text' name = 'solver' />
+            <input type='submit' value='Translate!' />
+        </form>
+        
+        <p>Your secret message was <%= decript %> </p>
+    </body>
+    
+</html>
